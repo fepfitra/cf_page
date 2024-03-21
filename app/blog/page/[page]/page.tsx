@@ -32,3 +32,5 @@ export default function Page({ params }: { params: { page: string } }) {
     />
   )
 }
+
+export const runtime = 'edge'

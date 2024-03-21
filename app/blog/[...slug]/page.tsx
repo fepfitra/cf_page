@@ -120,3 +120,5 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
     </>
   )
 }
+
+export const runtime = 'edge'

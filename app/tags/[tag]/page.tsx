@@ -39,3 +39,5 @@ export default function TagPage({ params }: { params: { tag: string } }) {
   )
   return <ListLayout posts={filteredPosts} title={title} />
 }
+
+export const runtime = 'edge'
