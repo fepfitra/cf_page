@@ -1,26 +1,9 @@
-const withMDX = require("@next/mdx")();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configure `pageExtensions` to include MDX files
-  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
-  // reactStrictMode: true,
-  images: {
-    //apply all domains
-    domains: [
-      "img.shields.io",
-      "github-readme-stats.vercel.app",
-      "github-readme-streak-stats.herokuapp.com",
-      "github-contributor-stats.vercel.app",
-      "visitcount.itsvg.in",
-      "randommeme-five.vercel.app"
-    ],
-    dangerouslyAllowSVG: true,
-  },
-  // Optionally, add any other Next.js config below
 };
 
-module.exports = withMDX(nextConfig);
+module.exports = nextConfig;
 /** @type {import('next').NextConfig} */
 
 // Here we use the @cloudflare/next-on-pages next-dev module to allow us to use bindings during local development
