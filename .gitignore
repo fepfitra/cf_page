@@ -12,8 +12,12 @@
 # next.js
 /.next/
 /out/
+
+#web setup
 /.contentlayer/
 /.wraggler/
+/public/search.json
+/app/tag-data.json
 
 # production
 /build
